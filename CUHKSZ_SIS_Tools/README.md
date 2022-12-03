@@ -5,6 +5,9 @@ CUHKSZ SIS 计时工具。
 Replace the original clock which refresh per second with a clock which will keep refreshing.  
 将原来一秒钟刷新一次的时钟更换为不间断刷新的时钟。  
   
+Prevent pages from automatically closing.  
+阻止页面自动关闭。  
+  
 Turn into green at every ten minutes.  
 在每个整十分钟显示绿色提示。  
   
