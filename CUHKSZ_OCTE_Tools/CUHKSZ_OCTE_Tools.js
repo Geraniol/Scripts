@@ -8,6 +8,7 @@
 // ==/UserScript==
 
 window.onload = () => {
+    window.alert('OCTE Tools: 新仓库地址移步 https://github.com/Geraniol/CUHKSZ-Tools');
     if (top == self) {
         document.getElementsByTagName("header")[0].innerHTML += "<div id='octebtn' style='width: 160px; height: 36px; position: fixed; top: 7px; left: calc(50% - 80px); z-index: 1000; background: #dddddd; border-radius: 18px; transition: 0.5s; font-size: 16px; font-weight: bold; color: #633869; display: flex; justify-content: center; align-items: center;'>自 动 填 写</div>";
         document.getElementById("octebtn").addEventListener('click', () => {
