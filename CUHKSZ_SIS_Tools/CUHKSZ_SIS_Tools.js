@@ -7,6 +7,7 @@
 // @run-at      document-end
 // ==/UserScript==
 
+window.alert('SIS Tools: 新仓库地址移步 https://github.com/Geraniol/CUHKSZ-Tools');
 clearInterval(window.int); // 关闭原时钟
 document.getElementById("systemDateRef").innerHTML = "当前系统时间：<b id='systemTimeEx' style='border-radius: 5px; padding: 0 5px; font-family: monospace; font-size: 16px;'></b> 距离上次操作：<b id='lastClickEx' style='border-radius: 5px; padding: 0 5px; font-family: monospace; font-size: 16px;'></b> 秒 <iframe id='rto' style='display: none;'><iframe>";
 var lastLoadTime = new Date().getTime(); // 记录静默时间
